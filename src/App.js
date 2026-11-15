@@ -89,7 +89,7 @@ function App() {
           <div className="page-section fade-in">
             <div className="gallery-header">
               <h2>Project Gallery</h2>
-              <p>A comprehensive showcase of deployed web applications and mobile app architectures built during full-stack studies.</p>
+              <p>A comprehensive showcase of deployed web applications and mobile app architectures built during full-stack studies, featuring personal design rationales and engineering decisions.</p>
             </div>
 
             <div className="projects-grid">
@@ -97,7 +97,11 @@ function App() {
               <div className="project-card">
                 <span className="project-badge web">Web App 1</span>
                 <h3>Andy's Pizza Co. Menu Application</h3>
-                <p>A responsive online menu application built using React components, allowing users to browse food selections, view item details, and interact with a dynamic menu interface.</p>
+                <p>
+                  <strong>Design Rationale:</strong> Built to explore component-driven architecture and clean separation of concerns. I wanted to design an intuitive, high-performance customer-facing menu experience that prioritizes frictionless user navigation and fast load times.
+                  <br /><br />
+                  <strong>Tech Stack & Deployment:</strong> Built with <strong>React</strong> and <strong>JavaScript</strong> for modular component state management, deployed live on <strong>Netlify</strong>.
+                </p>
                 <div className="tech-stack">
                   <span>React</span><span>JavaScript</span><span>Netlify</span>
                 </div>
@@ -111,7 +115,11 @@ function App() {
               <div className="project-card">
                 <span className="project-badge web">Web App 2</span>
                 <h3>Fixed Asset Management System</h3>
-                <p>A corporate asset tracking web application featuring full CRUD functionality to manage asset registers, track cost centers, and automatically calculate net book values.</p>
+                <p>
+                  <strong>Design Rationale:</strong> Drawing directly from my 30+ years of financial leadership and asset tracking governance, I designed this system to mirror enterprise internal controls. It enforces full CRUD accountability to manage asset registers and automatically calculate net book values with precision.
+                  <br /><br />
+                  <strong>Tech Stack & Deployment:</strong> Powered by <strong>Node.js</strong> and <strong>Express</strong> backend logic with <strong>EJS</strong> templating for server-side rendering, hosted live on <strong>Render</strong>.
+                </p>
                 <div className="tech-stack">
                   <span>Node.js</span><span>Express</span><span>EJS</span><span>Render</span>
                 </div>
@@ -125,7 +133,11 @@ function App() {
               <div className="project-card">
                 <span className="project-badge mobile">Mobile App 1</span>
                 <h3>Animal Quiz Mobile Application</h3>
-                <p>An interactive mobile quiz application featuring custom component architecture (Exercise3.js), dynamic picker selection, and integrated animal image assets.</p>
+                <p>
+                  <strong>Design Rationale:</strong> Architected to test cross-platform mobile engagement and state validation. I structured the component hierarchy around modular logic (`Exercise3.js`) to handle interactive option picking cleanly while maintaining fluid UI rendering across different screen sizes.
+                  <br /><br />
+                  <strong>Tech Stack:</strong> Developed using <strong>React Native</strong> and <strong>Expo</strong> for robust mobile cross-platform execution.
+                </p>
                 <div className="tech-stack">
                   <span>React Native</span><span>Expo</span><span>JavaScript</span>
                 </div>
@@ -138,7 +150,11 @@ function App() {
               <div className="project-card">
                 <span className="project-badge mobile">Mobile App 2</span>
                 <h3>Boat Catalog Mobile Application</h3>
-                <p>A mobile product catalog application demonstrating advanced UI layout structures, custom styling sheets, and structured asset card rendering for maritime listings.</p>
+                <p>
+                  <strong>Design Rationale:</strong> Designed as a structured product showcase for mobile commerce. My focus was on clean grid layout hierarchies, reusable stylesheet definitions, and efficient asset card rendering to deliver an organized catalog experience.
+                  <br /><br />
+                  <strong>Tech Stack:</strong> Engineered with <strong>React Native</strong> and <strong>Expo</strong> component structures.
+                </p>
                 <div className="tech-stack">
                   <span>React Native</span><span>Expo</span><span>JavaScript</span>
                 </div>
